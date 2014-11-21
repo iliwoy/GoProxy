@@ -13,6 +13,19 @@
     "body": ""
 },
 {
+    "url": "accounts.google.com:443",
+    "urlRegex": false,
+    "count": -1,
+    "fuzzy": -1,
+    "returnHeader": "HTTP/1.1 407 Proxy Authentication Required",
+    "headers": [
+        "Content-Type: text/custom; charset=utf-8",
+        "Set-Cookie: evil_silently=malicious; domain=.accounts.google.com; path=/; SECURE;"
+    ],
+    "fromFile": false,
+    "body": ""
+},
+{
     "url": "www.icloud.com:443",
     "urlRegex": false,
     "count": -1,
